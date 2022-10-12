@@ -76,4 +76,23 @@ app.MapPut("/fornecedor/{id}", async (Guid id, MinimalContextDb context, Fornece
 .WithName("PutFornecedor")
 .WithTags("Fornecedor");
 
+app.MapDelete("/fornecedor/{id}", async (Guid id, MinimalContextDb context) =>
+{
+    var fornecedor = await context.Fornecedores.FindAsync(id);
+    if (fornecedor is null) return Results.NotFound();
+
+    context.Fornecedores.Remove(fornecedor);
+    var result = await context.SaveChangesAsync();
+
+    return result > 0
+        ? Results.NoContent()
+        : Results.BadRequest("Houve um problema ao atualizar o registro!");
+})
+.Produces(StatusCodes.Status400BadRequest)
+.Produces(StatusCodes.Status204NoContent)
+.Produces(StatusCodes.Status404NotFound)
+.RequireAuthorization("ExcluirFornecedor")
+.WithName("DeleteFornecedor")
+.WithTags("Fornecedor");
+
 app.Run();
