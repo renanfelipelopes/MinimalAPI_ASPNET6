@@ -433,6 +433,15 @@
           }
         }
       },
+      "MiniValidation/0.6.0-pre.20220527.55": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MiniValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1568,6 +1577,24 @@
         "version.txt"
       ]
     },
+    "MiniValidation/0.6.0-pre.20220527.55": {
+      "sha512": "7UVWH0kcE5oi1vCHD4nTEne+pJcPlR304d+woshKsxBnkWzwZe8yvVZyz8BrSW91Usnem8Bt1uYl3BTrpbSK2w==",
+      "type": "package",
+      "path": "minivalidation/0.6.0-pre.20220527.55",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/MiniValidation.dll",
+        "lib/net6.0/MiniValidation.xml",
+        "lib/netcoreapp3.1/MiniValidation.dll",
+        "lib/netcoreapp3.1/MiniValidation.xml",
+        "lib/netstandard2.0/MiniValidation.dll",
+        "lib/netstandard2.0/MiniValidation.xml",
+        "minivalidation.0.6.0-pre.20220527.55.nupkg.sha512",
+        "minivalidation.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2139,6 +2166,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
+      "MiniValidation >= 0.6.0-pre.20220527.55",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2203,6 +2231,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.14.0, )"
+          },
+          "MiniValidation": {
+            "target": "Package",
+            "version": "[0.6.0-pre.20220527.55, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
