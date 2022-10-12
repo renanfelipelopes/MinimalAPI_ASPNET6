@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
+          "MiniValidation": "0.6.0-pre.20220527.55",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -301,6 +302,14 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "MiniValidation/0.6.0-pre.20220527.55": {
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "assemblyVersion": "0.6.0.0",
+            "fileVersion": "0.6.0.0"
           }
         }
       },
@@ -713,6 +722,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "MiniValidation/0.6.0-pre.20220527.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7UVWH0kcE5oi1vCHD4nTEne+pJcPlR304d+woshKsxBnkWzwZe8yvVZyz8BrSW91Usnem8Bt1uYl3BTrpbSK2w==",
+      "path": "minivalidation/0.6.0-pre.20220527.55",
+      "hashPath": "minivalidation.0.6.0-pre.20220527.55.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",

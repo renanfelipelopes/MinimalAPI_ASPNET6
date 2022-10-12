@@ -86,3 +86,4 @@ C:\Users\Tecdall\source\repos\MinimalAPI_ASPNET6\MinimalAPI\obj\Debug\net6.0\ref
 C:\Users\Tecdall\source\repos\MinimalAPI_ASPNET6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.pdb
 C:\Users\Tecdall\source\repos\MinimalAPI_ASPNET6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.genruntimeconfig.cache
 C:\Users\Tecdall\source\repos\MinimalAPI_ASPNET6\MinimalAPI\obj\Debug\net6.0\ref\MinimalAPI.dll
+C:\Users\Tecdall\source\repos\MinimalAPI_ASPNET6\MinimalAPI\bin\Debug\net6.0\MiniValidation.dll
